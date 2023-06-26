@@ -1,0 +1,11 @@
+public Integer diff(Integer a, Integer b) {
+    //code here
+    //Declare
+    Integer varA, varB, result;
+    //best practise to decale then initize later
+    //Initilize
+    varA = a;
+    varB = b;
+    result = math.abs(varA - varB);
+    return result;
+}
