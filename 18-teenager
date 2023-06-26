@@ -1,0 +1,11 @@
+public Boolean isTeenager(Integer age) {
+    //code here
+    Integer varAge = age;
+    if(varAge >= 13 && varAge <= 19){
+        //system.debug('isTeenager('+ varAge + ') = true');
+        return true;
+    }
+    else
+    //system.debug('isTeenager('+ varAge + ') = false');
+    return false;
+}
