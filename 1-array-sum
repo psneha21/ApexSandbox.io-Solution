@@ -5,5 +5,5 @@ public static Integer arraySum(List<Integer> numbers) {
           varSum = numbers.get(i) + numbers.get(i+1);
       }
       return varSum;
-      }
+      
 }
