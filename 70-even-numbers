@@ -3,7 +3,7 @@ public List<Integer> evenNumbers(Integer n) {
     Integer i;
     list<Integer> varNumList = new list<Integer>();
     for(i=1 ; i<=n; i++){
-        if( math.mod(n,2) == 0){
+        if( math.mod(i,2) == 0){
             varNumList.add(i);
         }
    }
