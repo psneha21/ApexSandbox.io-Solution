@@ -1,0 +1,15 @@
+public Set<Integer> setIntersection(Set<Integer> set1, Set<Integer> set2) {
+    //code here
+    Set<Integer> varInterSection = new Set<Integer>();
+    Set<Integer> varTemp = new Set<Integer>();
+    varTemp.addAll(set1);
+    //varTemp--1,5,10
+    for (Integer i : set2){
+        if(!varTemp.add(i)){
+            varInterSection.add(i);
+        }
+    }
+    
+    return varInterSection;
+
+}
