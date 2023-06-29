@@ -3,7 +3,7 @@ public List<Integer> positiveIntegers(List<Integer> numbers) {
     List<Integer> listPositiveNums = new List<Integer>();
     Integer i;
     for(i=0; i<numbers.size(); i++){
-        if(i>0){
+        if(numbers.get(i)>0){
             listPositiveNums.add(i);
         }
     }
