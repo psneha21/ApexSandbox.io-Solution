@@ -4,7 +4,7 @@ public List<Integer> positiveIntegers(List<Integer> numbers) {
     Integer i;
     for(i=0; i<numbers.size(); i++){
         if(numbers.get(i)>0){
-            listPositiveNums.add(i);
+           listPositiveNums = numbers.get(i);
         }
     }
     return listPositiveNums;
