@@ -5,6 +5,9 @@ public static Integer findLargest(List<Integer> nums) {
         if(nums.get(i)>nums.get(i+1)){
             tempLargeNum = nums.get(i);
         }
+        else if(nums.get(i)<nums.get(i+1)){
+             tempLargeNum = nums.get(i+1);
+        }
     }
     return tempLargeNum;
 }
