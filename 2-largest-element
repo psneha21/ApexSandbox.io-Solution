@@ -1,12 +1,12 @@
 public static Integer findLargest(List<Integer> nums) {
 	//code here
-    Integer i, tempLargeNum;
+    Integer i = 0, tempLargeNum = nums.get(i);
     for (i=0;i<nums.size()-1;i++){
-        if(nums.get(i)>nums.get(i+1)){
-            tempLargeNum = nums.get(i);
+        if(tempLargeNum < nums.get(i+1)){
+            tempLargeNum = nums.get(i+1);
         }
-        else if(nums.get(i)<nums.get(i+1)){
-             tempLargeNum = nums.get(i+1);
+        else{
+             tempLargeNum = tempLargeNum;
         }
     }
     return tempLargeNum;
