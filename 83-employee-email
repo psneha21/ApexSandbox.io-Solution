@@ -1,7 +1,7 @@
 public String employeeEmail(Map<String, String> employeeIdToEmail, String employeeId) {
     //code here
-    if(employeeId!=null){
-        return employeeIdToEmail.values(employeeId);
+    if(employeeIdToEmail.containsKey(employeeId)){
+        return employeeIdToEmail.get(employeeId);
     }
     else{
         String varEmail = 'info@apexsandbox.io';
